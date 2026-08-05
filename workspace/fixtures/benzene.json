@@ -1,0 +1,32 @@
+{
+    "name": "benzene",
+    "formula": "C6H6",
+    "atoms": [
+        {"id": 0, "element": "C"},
+        {"id": 1, "element": "C"},
+        {"id": 2, "element": "C"},
+        {"id": 3, "element": "C"},
+        {"id": 4, "element": "C"},
+        {"id": 5, "element": "C"},
+        {"id": 6, "element": "H"},
+        {"id": 7, "element": "H"},
+        {"id": 8, "element": "H"},
+        {"id": 9, "element": "H"},
+        {"id": 10, "element": "H"},
+        {"id": 11, "element": "H"}
+    ],
+    "bonds": [
+        {"atom1": 0, "atom2": 1, "order": 1.5},
+        {"atom1": 1, "atom2": 2, "order": 1.5},
+        {"atom1": 2, "atom2": 3, "order": 1.5},
+        {"atom1": 3, "atom2": 4, "order": 1.5},
+        {"atom1": 4, "atom2": 5, "order": 1.5},
+        {"atom1": 5, "atom2": 0, "order": 1.5},
+        {"atom1": 0, "atom2": 6, "order": 1},
+        {"atom1": 1, "atom2": 7, "order": 1},
+        {"atom1": 2, "atom2": 8, "order": 1},
+        {"atom1": 3, "atom2": 9, "order": 1},
+        {"atom1": 4, "atom2": 10, "order": 1},
+        {"atom1": 5, "atom2": 11, "order": 1}
+    ]
+}

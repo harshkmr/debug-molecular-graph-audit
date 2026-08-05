@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Summary — Molecular Graph Valence Audits</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    color: #1a1a2e;
+    line-height: 1.7;
+    background: #fff;
+    font-size: 14.5px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f3460;
+    border-bottom: 3px solid #0f3460;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+  }
+  h1 .emoji { font-size: 30px; }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #16213e;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid #e0e6ed;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #533483;
+    margin-top: 22px;
+    margin-bottom: 8px;
+  }
+
+  p { margin-bottom: 12px; }
+
+  ul, ol { margin: 10px 0 14px 22px; }
+  li { margin-bottom: 5px; }
+
+  strong { color: #16213e; }
+  em { color: #555; }
+  code {
+    background: #f0f2f5;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 0.88em;
+    font-family: 'Consolas', 'Fira Code', monospace;
+    color: #c7254e;
+  }
+
+  pre {
+    background: #1a1a2e;
+    color: #d4d4d4;
+    padding: 18px 22px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+    font-family: 'Consolas', 'Fira Code', monospace;
+  }
+  pre code { background: none; color: inherit; padding: 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 18px 0;
+    font-size: 13.5px;
+  }
+  th, td {
+    border: 1px solid #dee2e6;
+    padding: 10px 14px;
+    text-align: left;
+  }
+  th {
+    background: #16213e;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  tr:nth-child(even) { background: #f8f9fb; }
+
+  blockquote {
+    border-left: 4px solid #0f3460;
+    padding: 14px 20px;
+    background: #f0f4ff;
+    margin: 16px 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #333;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid #e8ecf1;
+    margin: 32px 0;
+  }
+
+  .glance-box {
+    background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+    color: #fff;
+    border-radius: 14px;
+    padding: 28px 32px;
+    margin: 24px 0;
+  }
+  .glance-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .glance-box th {
+    background: rgba(255,255,255,0.12);
+    color: #b8d4ff;
+    padding: 10px 16px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .glance-box td {
+    color: #fff;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .glance-box tr:nth-child(even) { background: rgba(255,255,255,0.04); }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .badge-blue { background: #e3f0ff; color: #0f3460; }
+  .badge-purple { background: #f0e6ff; color: #533483; }
+
+  @media print {
+    body { padding: 20px; font-size: 12px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 17px; break-after: avoid; }
+    h3 { font-size: 14px; break-after: avoid; }
+    table, pre, blockquote { break-inside: avoid; }
+    .page-break { break-before: page; }
+  }
+</style>
+</head>
+<body>
+
+<h1><span class="emoji">🧪</span> Project Summary: Molecular Graph Valence Audits</h1>
+
+<h2>What Did We Build?</h2>
+
+<p>We built a <strong>coding challenge</strong> — think of it like an escape room, but for programmers.</p>
+
+<p>We created a small software project that <em>looks</em> like it should work, but is secretly broken in <strong>8 different ways</strong>. A solver (an AI agent or a human developer) has to find and fix all the bugs to make it pass a 29-check automated test.</p>
+
+<h3>The Storyline</h3>
+
+<blockquote>
+A pharmaceutical company's automated pipeline for checking the safety of chemical compounds has broken.
+Chemists can't release their quality report until a developer fixes the code.
+The developer has to debug the Python analyzer, fix the build system, and get everything passing — fast.
+</blockquote>
+
+<hr>
+
+<h2>How Does It Work?</h2>
+
+<h3>The "Broken" Code (what the solver sees)</h3>
+
+<pre><code>workspace/
+├── molops/              ← Python code that checks molecules (has bugs)
+├── fixtures/            ← Data files describing 5 molecules (correct)
+├── Makefile             ← Build commands to run everything (has bugs)
+└── run_audit.py         ← Main script (correct)</code></pre>
+
+<p>The code reads molecular structures (water, methane, benzene, etc.) and checks:</p>
+<blockquote>"Does each atom have the right number of bonds?"</blockquote>
+
+<p>For example:</p>
+<ul>
+  <li><strong>Carbon</strong> should always have <strong>4 bonds</strong> (like in methane CH₄)</li>
+  <li><strong>Oxygen</strong> should always have <strong>2 bonds</strong> (like in water H₂O)</li>
+  <li><strong>Hydrogen</strong> should always have <strong>1 bond</strong></li>
+</ul>
+<p>If any atom has too many or too few bonds, the molecule is flagged as invalid.</p>
+
+<h3>The Bugs We Hid</h3>
+
+<table>
+  <tr><th>Bug</th><th>Plain English Analogy</th></tr>
+  <tr><td>Wrong filename in Makefile</td><td>Like telling someone to open <code>report_final_v2.docx</code> when the file is actually called <code>report.docx</code></td></tr>
+  <tr><td><code>make clean</code> deletes input data</td><td>Like a "Clear History" button that also deletes your bookmarks</td></tr>
+  <tr><td>Oxygen valence set to 3</td><td>Like saying humans have 6 fingers — the reference table is simply wrong</td></tr>
+  <tr><td>Only counting bonds in one direction</td><td>Like counting only outgoing calls on your phone, ignoring incoming ones</td></tr>
+  <tr><td>Using neighbor count instead of bond strength</td><td>Like counting how many friends you have vs. how <em>close</em> you are to each — a double bond counts as 2, not 1</td></tr>
+  <tr><td>Aromatic bonds all set to single</td><td>Like converting all bold text to regular — loses important information</td></tr>
+  <tr><td>Non-deterministic report ordering</td><td>Like a receipt that prints items in a random order each time</td></tr>
+  <tr><td>Missing <code>.PHONY</code> declaration</td><td>A subtle Makefile issue that can cause "nothing to do" errors</td></tr>
+</table>
+
+<h3>The Auto-Grader</h3>
+
+<p><code>verify.sh</code> runs <strong>29 automated checks</strong> across <strong>7 phases</strong>. It's like a teacher's answer key — the solver doesn't get to see it, they just get a pass/fail grade.</p>
+
+<hr>
+
+<h2 class="page-break">Why Is This Useful?</h2>
+
+<h3>1. Benchmarking AI Coding Agents 🤖</h3>
+
+<p>This is the primary use case. Companies building AI coding assistants (like GitHub Copilot, Cursor, Devin, etc.) need standardized tasks to measure:</p>
+<ul>
+  <li><em>Can the AI find bugs by reading code?</em></li>
+  <li><em>Can it understand chemistry domain rules?</em></li>
+  <li><em>Can it fix a Makefile?</em></li>
+  <li><em>Can it trace a chain of bugs where fixing one reveals another?</em></li>
+</ul>
+<p>Our task is particularly good for this because the bugs <strong>interact</strong> — fixing Bug A reveals Bug B, which requires understanding Bug C. This tests whether an AI can reason through a multi-step debugging process, not just pattern-match.</p>
+
+<h3>2. Developer Interview / Assessment 📝</h3>
+
+<p>Companies hiring software engineers could use this as a take-home coding challenge. It tests:</p>
+<ul>
+  <li><strong>Reading existing code</strong> (not just writing new code)</li>
+  <li><strong>Build system literacy</strong> (Makefile debugging)</li>
+  <li><strong>Domain knowledge</strong> (basic chemistry rules)</li>
+  <li><strong>Systematic debugging</strong> (following the chain)</li>
+  <li><strong>Attention to detail</strong> (the non-determinism bug is subtle)</li>
+</ul>
+
+<h3>3. Teaching &amp; Training 🎓</h3>
+
+<p>Great for CS courses on:</p>
+<ul>
+  <li><strong>Software debugging methodology</strong> — how to approach a broken codebase</li>
+  <li><strong>Build systems</strong> — understanding Make, <code>.PHONY</code>, targets, recipes</li>
+  <li><strong>Testing &amp; verification</strong> — how automated test suites work</li>
+  <li><strong>Scientific computing</strong> — intro to cheminformatics concepts</li>
+</ul>
+
+<h3>4. CI/CD Pipeline Testing ⚙️</h3>
+
+<p>The pattern we used (broken code + verifier script) is exactly how real-world CI/CD works. This project demonstrates:</p>
+<ul>
+  <li>How to write comprehensive bash test scripts</li>
+  <li>How to test for determinism (same input → same output)</li>
+  <li>How to test for safety (destructive operations caught)</li>
+</ul>
+
+<hr>
+
+<h2>What Are the Real-World Applications?</h2>
+
+<h3>The Task Format (Debugging Challenges)</h3>
+
+<table>
+  <tr><th>Application</th><th>Who Uses It</th><th>Example</th></tr>
+  <tr><td>AI agent benchmarks</td><td>Google, OpenAI, Anthropic</td><td>SWE-bench, HumanEval</td></tr>
+  <tr><td>Coding interviews</td><td>Tech companies</td><td>HackerRank, LeetCode</td></tr>
+  <tr><td>CTF competitions</td><td>Security researchers</td><td>Capture-the-flag events</td></tr>
+  <tr><td>Education platforms</td><td>Universities</td><td>Auto-graded assignments</td></tr>
+</table>
+
+<h3>The Domain (Molecular Graph Validation)</h3>
+
+<p>The actual <em>chemistry</em> in this project is a simplified version of what real pharmaceutical software does:</p>
+
+<table>
+  <tr><th>Our Project</th><th>Real-World Equivalent</th></tr>
+  <tr><td>JSON molecule files</td><td>Chemical databases (PubChem, ChEMBL)</td></tr>
+  <tr><td>Valence checking</td><td>Drug candidate screening</td></tr>
+  <tr><td>Bond-order normalization</td><td>Molecular descriptor computation</td></tr>
+  <tr><td>Audit reports</td><td>Regulatory compliance reports</td></tr>
+  <tr><td>Make-driven pipeline</td><td>Jenkins/Airflow pipelines at pharma companies</td></tr>
+</table>
+
+<p>Real tools like <strong>RDKit</strong>, <strong>Open Babel</strong>, and <strong>Schrödinger</strong> do exactly this — validate molecular structures before expensive lab work begins. Our project is a toy version of that pipeline.</p>
+
+<hr>
+
+<h2>At a Glance</h2>
+
+<div class="glance-box">
+<table>
+  <tr><th colspan="2">What We Built</th></tr>
+  <tr><td colspan="2">A debugging puzzle with 8 hidden bugs in a molecular chemistry audit tool</td></tr>
+  <tr><th colspan="2">Tech Stack</th></tr>
+  <tr><td colspan="2">Python + Makefile + Bash verifier &nbsp;•&nbsp; No internet, no dependencies</td></tr>
+  <tr><th>Scale</th><th>Difficulty</th></tr>
+  <tr><td>15 files &nbsp;│&nbsp; 8 bugs &nbsp;│&nbsp; 29 checks &nbsp;│&nbsp; 5 molecules</td><td>Expert: ~30 min &nbsp;│&nbsp; Junior: ~90 min</td></tr>
+  <tr><th colspan="2">Primary Use</th></tr>
+  <tr><td colspan="2">Benchmark AI coding agents &amp; test developer debugging skill</td></tr>
+</table>
+</div>
+
+</body>
+</html>

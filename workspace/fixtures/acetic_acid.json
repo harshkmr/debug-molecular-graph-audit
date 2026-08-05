@@ -1,0 +1,23 @@
+{
+    "name": "acetic_acid",
+    "formula": "CH3COOH",
+    "atoms": [
+        {"id": 0, "element": "C"},
+        {"id": 1, "element": "C"},
+        {"id": 2, "element": "O"},
+        {"id": 3, "element": "O"},
+        {"id": 4, "element": "H"},
+        {"id": 5, "element": "H"},
+        {"id": 6, "element": "H"},
+        {"id": 7, "element": "H"}
+    ],
+    "bonds": [
+        {"atom1": 0, "atom2": 1, "order": 1},
+        {"atom1": 1, "atom2": 2, "order": 2},
+        {"atom1": 1, "atom2": 3, "order": 1},
+        {"atom1": 0, "atom2": 4, "order": 1},
+        {"atom1": 0, "atom2": 5, "order": 1},
+        {"atom1": 0, "atom2": 6, "order": 1},
+        {"atom1": 3, "atom2": 7, "order": 1}
+    ]
+}

@@ -1,0 +1,15 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Audit outputs & verification temp files
+audit_report.txt
+.verify_tmp/
+
+# OS / Editor generated
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
