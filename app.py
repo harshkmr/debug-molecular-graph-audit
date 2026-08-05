@@ -54,7 +54,7 @@ st.markdown(
     }
     </style>
 """,
-    unsafe_allow_allow_html=True if hasattr(st, "markdown") else False,
+    unsafe_allow_html=True,
 )
 
 # Chemistry Reference Values
