@@ -1,5 +1,7 @@
 # Debug Make-based Molecular Graph Valence Audits
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://debug-molecular-graph-audit.streamlit.app/)
+
 ## Context
 
 The **MolOps screening pipeline** uses a Python-based molecular graph analyzer to
